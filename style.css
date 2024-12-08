@@ -1,5 +1,4 @@
 body{
-    background-image: linear-gradient(to right, #fcbfd6, #fc136c);
     font-family: "Sono", sans-serif;
 }
 
@@ -9,61 +8,116 @@ li {
 }
   
 .pricing-plan {
-    background-color: #ffc9de;
+    background-color: #dfdfdf;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
     border-radius: 50px;
-    box-shadow: 10px 10px 10px 10px #ffc9de6e;
+    box-shadow: 5px 5px 5px 5px gray;
     max-width: 300px;
+    text-align: center;
+    height: 470px;
+    justify-content: space-around;
 }
 
 .pricing-plan:hover {
-    background-color: #fdeaf2;
+    background-color: #dfdfdfc5;
+}
+
+.most-popular{
+    background-color: black;
+    color: white;
+    height: 550px;
+    justify-content: space-around;
+}
+
+.most-popular:hover{
+    background-color: #000000e5;
+    color: white;
 }
 
 .title {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 3rem;
+    border-radius: 30px;
+    padding: 0.3rem;
+}
+
+.most-popular .title{
+    background-color: white;
+    color: black;
 }
 
 .price {
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     margin-bottom: 5px;
+    margin-bottom: 2rem;
 }
 
 ul {
     flex-direction: column;
     gap: 1rem;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
     padding: 0;
+    font-size: 1.1rem;
 }
 
 .sign-up-button {
-    background-color: #fc136c;
+    background-color: black;
     border: none;
-    border-radius: 5px;
-    color: #fddde9;
+    border-radius: 30px;
+    color: white;
     padding: 10px;
+    font-size: 1.1rem;
+    width: 7rem;
+    height: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.sign-up-button:hover {
+    background-color: #000000e5;
+}
+
+.most-popular .sign-up-button{
+    color: black;
+    background-color: white;
+}
+
+.most-popular .sign-up-button:hover{
+    background-color: #ffffffcc;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    height: 120vh;
     align-items: center;
     gap: 2rem;
     justify-content: center;
+    margin: 3rem;
 }
 
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
 }
         
 @media (min-width: 1121px)  {
